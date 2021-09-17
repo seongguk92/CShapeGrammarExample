@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CShapeGrammarExample
 {
@@ -13,7 +14,13 @@ namespace CShapeGrammarExample
 
             //ProcessStringBuilder();
             #endregion
+
+            #region Int
+            ProcessInt();
+            #endregion
+
         }
+
         #region String
         private static void ProcessStringBuilder()
         {
@@ -35,6 +42,27 @@ namespace CShapeGrammarExample
             string ment = $"my name is {name}";
             Console.WriteLine(ment);
         }
+        #endregion
+
+        #region Int
+
+        private static void ProcessInt()
+        {
+            //"aa" -> int error
+            //"123" -> 123;
+            string strNum = "123";
+            //정규식 사용 숫자인지 판단 후 int형으로 변경
+            if (Regex.IsMatch(strNum, @"^[0-9]+$"))//true
+            {
+                int num = int.Parse(strNum);
+                Console.WriteLine($"형변환 완료 => {num}");
+            }
+            else
+            {
+                Console.WriteLine("형변환 실패");
+            }
+        }
+
         #endregion
     }
 }
