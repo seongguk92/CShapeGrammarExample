@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CShapeGrammarExample", "CShapeGrammarExample\CShapeGrammarExample.csproj", "{F3C400D9-8D53-40A5-B6D4-04B5F09140F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C400D9-8D53-40A5-B6D4-04B5F09140F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C400D9-8D53-40A5-B6D4-04B5F09140F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C400D9-8D53-40A5-B6D4-04B5F09140F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C400D9-8D53-40A5-B6D4-04B5F09140F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EA1CE65-0B03-4A4C-AB82-F6A9AC3D05A4}
+	EndGlobalSection
+EndGlobal
