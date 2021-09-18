@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace CShapeGrammarExample
 {
@@ -60,6 +61,26 @@ namespace CShapeGrammarExample
             else
             {
                 Console.WriteLine("형변환 실패");
+            }
+
+ 
+            while (true)
+            {
+
+            }
+
+            for (int i = 0; i < length; i++)
+            {
+
+            }
+
+            foreach (var item in collection)
+            {
+
+            }
+            switch (switch_on)
+            {
+                default:
             }
         }
 
